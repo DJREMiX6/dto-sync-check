@@ -1,0 +1,6 @@
+@dto_sync_check_backend_HostAddress = http://localhost:5108
+
+GET {{dto_sync_check_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
